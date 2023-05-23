@@ -1,0 +1,877 @@
+[11247.127757] loop8: detected capacity change from 0 to 3728488
+[11247.162320] EXT4-fs (loop8): mounted filesystem without journal. Quota mode: none.
+[11247.198729] loop9: detected capacity change from 0 to 593384
+[11247.230897] EXT4-fs (loop9): mounted filesystem without journal. Quota mode: none.
+[11247.344024] waydroid0: port 1(vethhuaprw) entered blocking state
+[11247.344045] waydroid0: port 1(vethhuaprw) entered disabled state
+[11247.344190] device vethhuaprw entered promiscuous mode
+[11247.344531] waydroid0: port 1(vethhuaprw) entered blocking state
+[11247.344542] waydroid0: port 1(vethhuaprw) entered forwarding state
+[11247.344784] waydroid0: port 1(vethhuaprw) entered disabled state
+[11247.346008] eth0: renamed from vethvCYW6N
+[11247.387809] IPv6: ADDRCONF(NETDEV_CHANGE): vethhuaprw: link becomes ready
+[11247.388078] waydroid0: port 1(vethhuaprw) entered blocking state
+[11247.388091] waydroid0: port 1(vethhuaprw) entered forwarding state
+[11247.388251] IPv6: ADDRCONF(NETDEV_CHANGE): waydroid0: link becomes ready
+[11247.419952] binder: 4485:611 cannot find target node
+[11247.419974] binder: 611:4485 transaction call to 0:0 failed 1/29189/-22, size 0-0 line 2915
+[11247.422918] binder: 4488:4361 cannot find target node
+[11247.422936] binder: 4361:4488 transaction call to 0:0 failed 2/29189/-22, size 0-0 line 2915
+[11247.520278] binder: 611:611 cannot find target node
+[11247.520298] binder: 611:611 transaction call to 0:0 failed 3/29189/-22, size 0-0 line 2915
+[11247.524058] binder: 4361:4361 cannot find target node
+[11247.524076] binder: 4361:4361 transaction call to 0:0 failed 4/29189/-22, size 0-0 line 2915
+[11247.644704] init: init first stage started!
+[11247.644948] init: Unable to open /lib/modules, skipping module loading.
+[11247.645072] init: Skipped setting INIT_AVB_VERSION (not in recovery mode)
+[11247.675671] init: init second stage started!
+[11247.714133] init: Using Android DT directory /proc/device-tree/firmware/android/
+[11247.716651] init: Couldn't load property file '/vendor_extra/build.prop': open() failed: No such file or directory: No such file or directory
+[11247.719818] init: Couldn't load property file '/factory/factory.prop': open() failed: No such file or directory: No such file or directory
+[11247.720650] binder: 611:611 cannot find target node
+[11247.720666] binder: 611:611 transaction call to 0:0 failed 5/29189/-22, size 0-0 line 2915
+[11247.720747] init: Setting product property ro.product.brand to 'waydroid' (from ro.product.product.brand)
+[11247.720801] init: Setting product property ro.product.device to 'waydroid_arm64' (from ro.product.product.device)
+[11247.720844] init: Setting product property ro.product.manufacturer to 'Waydroid' (from ro.product.product.manufacturer)
+[11247.720886] init: Setting product property ro.product.model to 'Google fennel14 sku0 board' (from ro.product.waydroid.model)
+[11247.720928] init: Setting product property ro.product.name to 'lineage_waydroid_arm64' (from ro.product.product.name)
+[11247.720979] init: Setting property 'ro.build.fingerprint' to 'waydroid/lineage_waydroid_arm64/waydroid_arm64:11/RQ3A.211001.001/32:userdebug/test-keys'
+[11247.728455] selinux: SELinux: Loaded file_contexts
+[11247.728470] selinux: 
+[11247.728522] init: Running restorecon...
+[11247.729003] init: Created socket '/dev/socket/property_service', mode 666, user 0, group 0
+[11247.738054] init: Activated APEX 'com.android.adbd' in /system/apex/com.android.adbd to /apex/com.android.adbd, version 300000000 
+[11247.740481] init: Activated APEX 'com.android.art' in /system/apex/com.android.art.release to /apex/com.android.art, version 1 
+[11247.743222] init: Activated APEX 'com.android.conscrypt' in /system/apex/com.android.conscrypt to /apex/com.android.conscrypt, version 300000000 
+[11247.745267] init: Activated APEX 'com.android.extservices' in /system/apex/com.android.extservices to /apex/com.android.extservices, version 300000000 
+[11247.746736] init: Activated APEX 'com.android.i18n' in /system/apex/com.android.i18n to /apex/com.android.i18n, version 1 
+[11247.749363] init: Activated APEX 'com.android.ipsec' in /system/apex/com.android.ipsec to /apex/com.android.ipsec, version 300000000 
+[11247.750885] init: Activated APEX 'com.android.media' in /system/apex/com.android.media to /apex/com.android.media, version 300000000 
+[11247.752408] init: Activated APEX 'com.android.media.swcodec' in /system/apex/com.android.media.swcodec to /apex/com.android.media.swcodec, version 300000000 
+[11247.754602] init: Activated APEX 'com.android.mediaprovider' in /system/apex/com.android.mediaprovider to /apex/com.android.mediaprovider, version 300000000 
+[11247.756806] init: Activated APEX 'com.android.neuralnetworks' in /system/apex/com.android.neuralnetworks to /apex/com.android.neuralnetworks, version 300000000 
+[11247.758491] init: Activated APEX 'com.android.os.statsd' in /system/apex/com.android.os.statsd to /apex/com.android.os.statsd, version 300000000 
+[11247.760222] init: Activated APEX 'com.android.permission' in /system/apex/com.android.permission to /apex/com.android.permission, version 300000000 
+[11247.762169] init: Activated APEX 'com.android.resolv' in /system/apex/com.android.resolv to /apex/com.android.resolv, version 300000000 
+[11247.764157] init: Activated APEX 'com.android.runtime' in /system/apex/com.android.runtime to /apex/com.android.runtime, version 1 
+[11247.766319] init: Activated APEX 'com.android.sdkext' in /system/apex/com.android.sdkext to /apex/com.android.sdkext, version 300000000 
+[11247.767834] init: Activated APEX 'com.android.tethering' in /system/apex/com.android.tethering to /apex/com.android.tethering, version 300000000 
+[11247.770136] init: Activated APEX 'com.android.tzdata' in /system/apex/com.android.tzdata to /apex/com.android.tzdata, version 300000000 
+[11247.771896] init: Activated APEX 'com.android.vndk.v30' in /system/apex/com.android.vndk.current to /apex/com.android.vndk.v30, version 1 
+[11247.775248] init: Activated APEX 'com.android.wifi' in /system/apex/com.android.wifi to /apex/com.android.wifi, version 300000000 
+[11247.777683] init: Activated APEX 'com.android.vndk.v28' in /system_ext/apex/com.android.vndk.v28 to /apex/com.android.vndk.v28, version 1 
+[11247.781105] init: Activated APEX 'com.android.vndk.v29' in /system_ext/apex/com.android.vndk.v29 to /apex/com.android.vndk.v29, version 1 
+[11247.781290] init: SetupMountNamespaces done
+[11247.782977] init: Forked subcontext for 'u:r:vendor_init:s0' with pid 3
+[11247.786497] init: Parsing file /system/etc/init/hw/init.rc...
+[11247.786977] init: Added '/init.environ.rc' to import list
+[11247.787002] init: Added '/system/etc/init/hw/init.usb.rc' to import list
+[11247.787121] init: Added '/init.unknown.rc' to import list
+[11247.787148] init: Added '/vendor/etc/init/hw/init.unknown.rc' to import list
+[11247.787163] init: Added '/system/etc/init/hw/init.usb.configfs.rc' to import list
+[11247.787185] init: Added '/system/etc/init/hw/init.zygote64_32.rc' to import list
+[11247.790320] init: Parsing file /init.environ.rc...
+[11247.790672] init: Parsing file /system/etc/init/hw/init.usb.rc...
+[11247.791349] init: Parsing file /init.unknown.rc...
+[11247.791381] init: Unable to read config file '/init.unknown.rc': open() failed: No such file or directory
+[11247.791593] init: Parsing file /vendor/etc/init/hw/init.unknown.rc...
+[11247.791628] init: Unable to read config file '/vendor/etc/init/hw/init.unknown.rc': open() failed: No such file or directory
+[11247.791686] init: Parsing file /system/etc/init/hw/init.usb.configfs.rc...
+[11247.792581] init: Parsing file /system/etc/init/hw/init.zygote64_32.rc...
+[11247.793003] init: Parsing directory /system/etc/init...
+[11247.793269] init: Parsing file /system/etc/init/adb_root.rc...
+[11247.793414] init: Parsing file /system/etc/init/android.hidl.allocator@1.0-service.rc...
+[11247.793558] init: Parsing file /system/etc/init/android.system.suspend@1.0-service.rc...
+[11247.793687] init: last valid run-time capability is larger than CAP_LAST_CAP
+[11247.793703] init: Parsing file /system/etc/init/apexd.rc...
+[11247.793903] init: Parsing file /system/etc/init/atrace.rc...
+[11247.794913] init: Parsing file /system/etc/init/atrace_userdebug.rc...
+[11247.795710] init: Parsing file /system/etc/init/audioserver.rc...
+[11247.796064] init: last valid run-time capability is larger than CAP_LAST_CAP
+[11247.796231] init: Parsing file /system/etc/init/blank_screen.rc...
+[11247.796508] init: Parsing file /system/etc/init/bootanim.rc...
+[11247.796816] init: Parsing file /system/etc/init/bootstat-debug.rc...
+[11247.797088] init: Parsing file /system/etc/init/bootstat.rc...
+[11247.798784] init: Parsing file /system/etc/init/bpfloader.rc...
+[11247.799209] init: last valid run-time capability is larger than CAP_LAST_CAP
+[11247.799357] init: Parsing file /system/etc/init/cameraserver.rc...
+[11247.799666] init: Parsing file /system/etc/init/clean_scratch_files.rc...
+[11247.799971] init: Parsing file /system/etc/init/credstore.rc...
+[11247.800163] init: Parsing file /system/etc/init/drmserver.rc...
+[11247.800303] init: Parsing file /system/etc/init/dumpstate.rc...
+[11247.800492] init: Parsing file /system/etc/init/flags_health_check.rc...
+[11247.800630] init: Parsing file /system/etc/init/gatekeeperd.rc...
+[11247.800738] init: Parsing file /system/etc/init/gpuservice.rc...
+[11247.800846] init: Parsing file /system/etc/init/gsid.rc...
+[11247.801080] init: Parsing file /system/etc/init/heapprofd.rc...
+[11247.801222] init: last valid run-time capability is larger than CAP_LAST_CAP
+[11247.801288] init: Parsing file /system/etc/init/hwservicemanager.rc...
+[11247.801430] init: Parsing file /system/etc/init/idmap2d.rc...
+[11247.801537] init: Parsing file /system/etc/init/incidentd.rc...
+[11247.802921] init: last valid run-time capability is larger than CAP_LAST_CAP
+[11247.803067] init: Parsing file /system/etc/init/init-debug.rc...
+[11247.803576] init: Parsing file /system/etc/init/init.waydroid.rc...
+[11247.804045] init: last valid run-time capability is larger than CAP_LAST_CAP
+[11247.804210] init: last valid run-time capability is larger than CAP_LAST_CAP
+[11247.804271] init: last valid run-time capability is larger than CAP_LAST_CAP
+[11247.804357] init: last valid run-time capability is larger than CAP_LAST_CAP
+[11247.804423] init: Parsing file /system/etc/init/installd.rc...
+[11247.805116] init: Parsing file /system/etc/init/iorapd.rc...
+[11247.805410] init: last valid run-time capability is larger than CAP_LAST_CAP
+[11247.805482] init: Parsing file /system/etc/init/keystore.rc...
+[11247.805656] init: Parsing file /system/etc/init/lineage-iosched.rc...
+[11247.806049] init: Parsing file /system/etc/init/lineage-ssh.rc...
+[11247.806185] init: Parsing file /system/etc/init/lineage-system.rc...
+[11247.806371] init: Parsing file /system/etc/init/lineage-updates.rc...
+[11247.806516] init: Parsing file /system/etc/init/lmkd.rc...
+[11247.806671] init: last valid run-time capability is larger than CAP_LAST_CAP
+[11247.806725] init: Parsing file /system/etc/init/logcatd.rc...
+[11247.807152] init: Parsing file /system/etc/init/logd.rc...
+[11247.807516] init: last valid run-time capability is larger than CAP_LAST_CAP
+[11247.807578] init: last valid run-time capability is larger than CAP_LAST_CAP
+[11247.807647] init: Parsing file /system/etc/init/logtagd.rc...
+[11247.808009] init: Parsing file /system/etc/init/lpdumpd.rc...
+[11247.808584] init: Parsing file /system/etc/init/mdnsd.rc...
+[11247.808761] init: Parsing file /system/etc/init/mediaextractor.rc...
+[11247.808910] init: Parsing file /system/etc/init/mediametrics.rc...
+[11247.809086] init: Parsing file /system/etc/init/mediaserver.rc...
+[11247.809310] init: Parsing file /system/etc/init/mtpd.rc...
+[11247.809464] init: last valid run-time capability is larger than CAP_LAST_CAP
+[11247.809495] init: Parsing file /system/etc/init/netd.rc...
+[11247.809682] init: last valid run-time capability is larger than CAP_LAST_CAP
+[11247.809773] init: Parsing file /system/etc/init/perfetto.rc...
+[11247.810029] init: last valid run-time capability is larger than CAP_LAST_CAP
+[11247.810153] init: Parsing file /system/etc/init/racoon.rc...
+[11247.810300] init: last valid run-time capability is larger than CAP_LAST_CAP
+[11247.810323] init: Parsing file /system/etc/init/recovery-persist.rc...
+[11247.810451] init: Parsing file /system/etc/init/recovery-refresh.rc...
+[11247.810576] init: Parsing file /system/etc/init/rss_hwm_reset.rc...
+[11247.810705] init: last valid run-time capability is larger than CAP_LAST_CAP
+[11247.810734] init: Parsing file /system/etc/init/servicemanager.rc...
+[11247.810929] init: Parsing file /system/etc/init/storaged.rc...
+[11247.811095] init: last valid run-time capability is larger than CAP_LAST_CAP
+[11247.811131] init: Parsing file /system/etc/init/surfaceflinger.rc...
+[11247.811285] init: last valid run-time capability is larger than CAP_LAST_CAP
+[11247.811358] init: Parsing file /system/etc/init/tombstoned.rc...
+[11247.811513] init: Parsing file /system/etc/init/traced_perf.rc...
+[11247.811656] init: last valid run-time capability is larger than CAP_LAST_CAP
+[11247.811760] init: Parsing file /system/etc/init/traceur.rc...
+[11247.812933] init: Parsing file /system/etc/init/uncrypt.rc...
+[11247.813118] init: Parsing file /system/etc/init/usbd.rc...
+[11247.813245] init: Parsing file /system/etc/init/vdc.rc...
+[11247.813425] init: Parsing file /system/etc/init/vendor.waydroid.task@1.0-service.rc...
+[11247.813610] init: Parsing file /system/etc/init/vold.rc...
+[11247.813789] init: Parsing file /system/etc/init/wait_for_keymaster.rc...
+[11247.813952] init: Parsing file /system/etc/init/wifi.rc...
+[11247.814365] init: Parsing file /system/etc/init/wificond.rc...
+[11247.814490] init: last valid run-time capability is larger than CAP_LAST_CAP
+[11247.814622] init: Parsing file /system_ext/etc/init...
+[11247.814656] init: Unable to read config file '/system_ext/etc/init': open() failed: No such file or directory
+[11247.814698] init: Parsing file /product/etc/init...
+[11247.814726] init: Unable to read config file '/product/etc/init': open() failed: No such file or directory
+[11247.814793] init: Parsing file /odm/etc/init...
+[11247.814822] init: Unable to read config file '/odm/etc/init': open() failed: No such file or directory
+[11247.814851] init: Parsing directory /vendor/etc/init...
+[11247.814988] init: Parsing file /vendor/etc/init/android.hardware.audio.service.rc...
+[11247.815289] init: last valid run-time capability is larger than CAP_LAST_CAP
+[11247.815338] init: /vendor/etc/init/android.hardware.audio.service.rc: 1: ignored duplicate definition of service 'vendor.audio-hal'
+[11247.815358] init: Parsing file /vendor/etc/init/android.hardware.camera.provider@2.4-service.rc...
+[11247.815546] init: /vendor/etc/init/android.hardware.camera.provider@2.4-service.rc: 2: Interface 'android.hardware.camera.provider@2.4::ICameraProvider/legacy/0' redefined in vendor.camera-provider-2-4 but is already defined by vendor.camera-provider-2-4
+[11247.815588] init: last valid run-time capability is larger than CAP_LAST_CAP
+[11247.815615] init: /vendor/etc/init/android.hardware.camera.provider@2.4-service.rc: 1: ignored duplicate definition of service 'vendor.camera-provider-2-4'
+[11247.815633] init: Parsing file /vendor/etc/init/android.hardware.cas@1.2-service.rc...
+[11247.815767] init: Parsing file /vendor/etc/init/android.hardware.configstore@1.1-service.rc...
+[11247.815957] init: Parsing file /vendor/etc/init/android.hardware.drm@1.0-service.rc...
+[11247.816112] init: Parsing file /vendor/etc/init/android.hardware.drm@1.3-service.clearkey.rc...
+[11247.816315] init: Parsing file /vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc...
+[11247.816464] init: Parsing file /vendor/etc/init/android.hardware.graphics.allocator@2.0-service.rc...
+[11247.816611] init: last valid run-time capability is larger than CAP_LAST_CAP
+[11247.816633] init: Parsing file /vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc...
+[11247.816771] init: last valid run-time capability is larger than CAP_LAST_CAP
+[11247.816800] init: /vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc: 1: ignored duplicate definition of service 'vendor.hwcomposer-2-1'
+[11247.816818] init: Parsing file /vendor/etc/init/android.hardware.health@2.0-service.waydroid.rc...
+[11247.817946] init: Parsing file /vendor/etc/init/android.hardware.keymaster@4.0-service.rc...
+[11247.818121] init: Parsing file /vendor/etc/init/android.hardware.light@2.0-service.waydroid.rc...
+[11247.818274] init: Parsing file /vendor/etc/init/android.hardware.media.omx@1.0-service.rc...
+[11247.818422] init: Parsing file /vendor/etc/init/android.hardware.memtrack@1.0-service.rc...
+[11247.818561] init: Parsing file /vendor/etc/init/android.hardware.power@1.0-service.waydroid.rc...
+[11247.818738] init: Parsing file /vendor/etc/init/android.hardware.sensors@1.0-service.waydroid.rc...
+[11247.818878] init: Parsing file /vendor/etc/init/android.hardware.vibrator@1.0-service.waydroid.rc...
+[11247.819102] init: Parsing file /vendor/etc/init/boringssl_self_test.rc...
+[11247.819633] init: Parsing file /vendor/etc/init/vendor_flash_recovery.rc...
+[11247.819904] init: Parsing file /vendor/etc/init/vndservicemanager.rc...
+[11247.820856] init: processing action (SetupCgroups) from (<Builtin Action>:0)
+[11247.825351] libprocessgroup: Failed to mount blkio cgroup: Operation not permitted
+[11247.825408] libprocessgroup: Failed to setup blkio cgroup
+[11247.825637] libprocessgroup: lchown() failed for /sys/fs/cgroup/.: Read-only file system
+[11247.825675] libprocessgroup: Failed to create directory for cgroup2 cgroup
+[11247.825705] libprocessgroup: Failed to mount cgroup2 cgroup: Read-only file system
+[11247.825736] libprocessgroup: Failed to setup cgroup2 cgroup
+[11247.826122] libprocessgroup: Failed to mount cpu cgroup: Operation not permitted
+[11247.826157] libprocessgroup: Failed to setup cpu cgroup
+[11247.826512] libprocessgroup: Failed to mount cpuacct cgroup: Operation not permitted
+[11247.826547] libprocessgroup: Failed to setup cpuacct cgroup
+[11247.826817] libprocessgroup: Failed to mount cpuset cgroup: Operation not permitted
+[11247.826851] libprocessgroup: Failed to setup cpuset cgroup
+[11247.826899] libprocessgroup: mkdir() failed for /sys/fs/cgroup/freezer: Read-only file system
+[11247.826921] libprocessgroup: Failed to create directory for freezer cgroup
+[11247.826940] libprocessgroup: Failed to setup freezer cgroup
+[11247.827354] libprocessgroup: Failed to mount memory cgroup: Operation not permitted
+[11247.827394] libprocessgroup: Failed to setup memory cgroup
+[11247.827503] cgroup: Unknown subsys name 'schedtune'
+[11247.827540] libprocessgroup: Failed to mount schedtune cgroup: Invalid argument
+[11247.827573] libprocessgroup: Failed to setup schedtune cgroup
+[11247.829666] init: processing action (TestPerfEventSelinux) from (<Builtin Action>:0)
+[11247.829937] init: processing action (early-init) from (/system/etc/init/hw/init.rc:15)
+[11247.830436] init: Command 'write /proc/sys/kernel/sysrq 0' action=early-init (/system/etc/init/hw/init.rc:17) took 0ms and failed: Unable to write to file '/proc/sys/kernel/sysrq': open() failed: Read-only file system
+[11247.830731] init: Command 'write /proc/sys/kernel/modprobe 
+[11247.830739] init: ' action=early-init (/system/etc/init/hw/init.rc:22) took 0ms and failed: Unable to write to file '/proc/sys/kernel/modprobe': open() failed: Read-only file system
+[11247.831623] init: Command 'mkdir /acct/uid' action=early-init (/system/etc/init/hw/init.rc:30) took 0ms and failed: mkdir() failed on /acct/uid: Read-only file system
+[11247.834501] init: starting service 'exec 1 (/system/bin/linkerconfig --target /linkerconfig/bootstrap)'...
+[11247.836770] libprocessgroup: Failed to make and chown /acct/uid_0: Read-only file system
+[11247.836854] init: createProcessGroup(0, 4) failed for service 'exec 1 (/system/bin/linkerconfig --target /linkerconfig/bootstrap)': Read-only file system
+[11247.836899] init: SVC_EXEC service 'exec 1 (/system/bin/linkerconfig --target /linkerconfig/bootstrap)' pid 4 (uid 0 gid 0+0 context default) started; waiting...
+[11247.882635] init: Service 'exec 1 (/system/bin/linkerconfig --target /linkerconfig/bootstrap)' (pid 4) exited with status 0 waiting took 0.046000 seconds
+[11247.882702] init: Sending signal 9 to service 'exec 1 (/system/bin/linkerconfig --target /linkerconfig/bootstrap)' (pid 4) process group...
+[11247.882877] libprocessgroup: Successfully killed process cgroup uid 0 pid 4 in 0ms
+[11247.887094] init: starting service 'ueventd'...
+[11247.889149] libprocessgroup: Failed to make and chown /acct/uid_0: Read-only file system
+[11247.889227] init: createProcessGroup(0, 5) failed for service 'ueventd': Read-only file system
+[11247.890328] init: starting service 'apexd-bootstrap'...
+[11247.892453] libprocessgroup: Failed to make and chown /acct/uid_0: Read-only file system
+[11247.892517] init: createProcessGroup(0, 6) failed for service 'apexd-bootstrap': Read-only file system
+[11247.893618] init: SVC_EXEC service 'apexd-bootstrap' pid 6 (uid 0 gid 1000+0 context default) started; waiting...
+[11247.918461] ueventd: ueventd started!
+[11247.920118] selinux: SELinux: Loaded file_contexts
+[11247.920132] selinux: 
+[11247.920280] ueventd: Parsing file /system/etc/ueventd.rc...
+[11247.922099] ueventd: Parsing file /vendor/ueventd.rc...
+[11247.922143] ueventd: Unable to read config file '/vendor/ueventd.rc': open() failed: No such file or directory
+[11247.922184] ueventd: Parsing file /odm/ueventd.rc...
+[11247.922210] ueventd: Unable to read config file '/odm/ueventd.rc': open() failed: No such file or directory
+[11247.922260] ueventd: Parsing file /ueventd.unknown.rc...
+[11247.922286] ueventd: Unable to read config file '/ueventd.unknown.rc': open() failed: No such file or directory
+[11247.922668] ueventd: [libfs_mgr]ReadDefaultFstab(): failed to find device default fstab
+[11247.969230] ueventd: Coldboot took 0.046 seconds
+[11247.990076] apexd: This device does not support updatable APEX. Exiting
+[11247.993942] init: Service 'apexd-bootstrap' (pid 6) exited with status 0 waiting took 0.101000 seconds
+[11247.993991] init: Sending signal 9 to service 'apexd-bootstrap' (pid 6) process group...
+[11247.994122] libprocessgroup: Successfully killed process cgroup uid 0 pid 6 in 0ms
+[11247.996033] init: processing action (ro.product.cpu.abilist32=* && early-init) from (/system/etc/init/hw/init.rc:85)
+[11247.996215] init: starting service 'boringssl_self_test32'...
+[11247.998019] libprocessgroup: Failed to make and chown /acct/uid_0: Read-only file system
+[11247.998070] init: createProcessGroup(0, 16) failed for service 'boringssl_self_test32': Read-only file system
+[11247.998670] init: SVC_EXEC service 'boringssl_self_test32' pid 16 (uid 0 gid 0+0 context default) started; waiting...
+[11248.113672] init: Service 'boringssl_self_test32' (pid 16) exited with status 0 waiting took 0.115000 seconds
+[11248.113740] init: Sending signal 9 to service 'boringssl_self_test32' (pid 16) process group...
+[11248.113923] libprocessgroup: Successfully killed process cgroup uid 0 pid 16 in 0ms
+[11248.114909] init: processing action (ro.product.cpu.abilist64=* && early-init) from (/system/etc/init/hw/init.rc:87)
+[11248.115294] init: starting service 'boringssl_self_test64'...
+[11248.117617] libprocessgroup: Failed to make and chown /acct/uid_0: Read-only file system
+[11248.117705] init: createProcessGroup(0, 17) failed for service 'boringssl_self_test64': Read-only file system
+[11248.118668] init: SVC_EXEC service 'boringssl_self_test64' pid 17 (uid 0 gid 0+0 context default) started; waiting...
+[11248.188796] init: Service 'boringssl_self_test64' (pid 17) exited with status 0 waiting took 0.071000 seconds
+[11248.188866] init: Sending signal 9 to service 'boringssl_self_test64' (pid 17) process group...
+[11248.189100] libprocessgroup: Successfully killed process cgroup uid 0 pid 17 in 0ms
+[11248.190596] init: processing action (early-init) from (/init.environ.rc:2)
+[11248.191528] init: processing action (ro.product.cpu.abilist32=* && early-init) from (/vendor/etc/init/boringssl_self_test.rc:2)
+[11248.192484] init: starting service 'boringssl_self_test32_vendor'...
+[11248.193714] libprocessgroup: Failed to make and chown /acct/uid_0: Read-only file system
+[11248.193772] init: createProcessGroup(0, 18) failed for service 'boringssl_self_test32_vendor': Read-only file system
+[11248.194949] init: SVC_EXEC service 'boringssl_self_test32_vendor' pid 18 (uid 0 gid 0+0 context default) started; waiting...
+[11248.204015] init: Service 'boringssl_self_test32_vendor' (pid 18) exited with status 0 waiting took 0.010000 seconds
+[11248.204064] init: Sending signal 9 to service 'boringssl_self_test32_vendor' (pid 18) process group...
+[11248.204214] libprocessgroup: Successfully killed process cgroup uid 0 pid 18 in 0ms
+[11248.205551] init: processing action (ro.product.cpu.abilist64=* && early-init) from (/vendor/etc/init/boringssl_self_test.rc:4)
+[11248.205946] init: starting service 'boringssl_self_test64_vendor'...
+[11248.207059] libprocessgroup: Failed to make and chown /acct/uid_0: Read-only file system
+[11248.207105] init: createProcessGroup(0, 19) failed for service 'boringssl_self_test64_vendor': Read-only file system
+[11248.208585] init: SVC_EXEC service 'boringssl_self_test64_vendor' pid 19 (uid 0 gid 0+0 context default) started; waiting...
+[11248.217103] init: Service 'boringssl_self_test64_vendor' (pid 19) exited with status 0 waiting took 0.010000 seconds
+[11248.217161] init: Sending signal 9 to service 'boringssl_self_test64_vendor' (pid 19) process group...
+[11248.217327] libprocessgroup: Successfully killed process cgroup uid 0 pid 19 in 0ms
+[11248.218175] init: processing action (wait_for_coldboot_done) from (<Builtin Action>:0)
+[11248.218227] init: start_waiting_for_property("ro.cold_boot_done", "true"): already set
+[11248.218350] init: processing action (KeychordInit) from (<Builtin Action>:0)
+[11248.218453] init: Could not add watch for /dev/input: No such file or directory
+[11248.218598] init: processing action (init) from (/system/etc/init/hw/init.rc:114)
+[11248.220254] init: Command 'symlink /proc/self/fd/0 /dev/stdin' action=init (/system/etc/init/hw/init.rc:121) took 0ms and failed: symlink() failed: File exists
+[11248.220662] init: Command 'symlink /proc/self/fd/1 /dev/stdout' action=init (/system/etc/init/hw/init.rc:122) took 0ms and failed: symlink() failed: File exists
+[11248.221055] init: Command 'symlink /proc/self/fd/2 /dev/stderr' action=init (/system/etc/init/hw/init.rc:123) took 0ms and failed: symlink() failed: File exists
+[11248.233200] init: Command 'mount binder binder /dev/binderfs stats=global' action=init (/system/etc/init/hw/init.rc:177) took 5ms and failed: mount() failed: No such device
+[11248.234995] init: Command 'symlink /dev/binderfs/binder /dev/binder' action=init (/system/etc/init/hw/init.rc:183) took 0ms and failed: symlink() failed: File exists
+[11248.235237] init: Command 'symlink /dev/binderfs/hwbinder /dev/hwbinder' action=init (/system/etc/init/hw/init.rc:184) took 0ms and failed: symlink() failed: File exists
+[11248.235369] init: Command 'symlink /dev/binderfs/vndbinder /dev/vndbinder' action=init (/system/etc/init/hw/init.rc:185) took 0ms and failed: symlink() failed: File exists
+[11248.240603] init: Command 'write /proc/sys/kernel/panic_on_oops 1' action=init (/system/etc/init/hw/init.rc:227) took 0ms and failed: Unable to write to file '/proc/sys/kernel/panic_on_oops': open() failed: Read-only file system
+[11248.241622] init: Command 'write /proc/sys/kernel/sched_child_runs_first 0' action=init (/system/etc/init/hw/init.rc:238) took 0ms and failed: Unable to write to file '/proc/sys/kernel/sched_child_runs_first': open() failed: Read-only file system
+[11248.241815] init: Command 'write /proc/sys/kernel/randomize_va_space 2' action=init (/system/etc/init/hw/init.rc:240) took 0ms and failed: Unable to write to file '/proc/sys/kernel/randomize_va_space': open() failed: Read-only file system
+[11248.242009] init: Command 'write /proc/sys/vm/mmap_min_addr 32768' action=init (/system/etc/init/hw/init.rc:241) took 0ms and failed: Unable to write to file '/proc/sys/vm/mmap_min_addr': open() failed: Read-only file system
+[11248.242572] init: Command 'write /proc/sys/kernel/sched_rt_runtime_us 950000' action=init (/system/etc/init/hw/init.rc:244) took 0ms and failed: Unable to write to file '/proc/sys/kernel/sched_rt_runtime_us': open() failed: Read-only file system
+[11248.242766] init: Command 'write /proc/sys/kernel/sched_rt_period_us 1000000' action=init (/system/etc/init/hw/init.rc:245) took 0ms and failed: Unable to write to file '/proc/sys/kernel/sched_rt_period_us': open() failed: Read-only file system
+[11248.245156] init: Command 'copy /dev/cpuset/cpus /dev/cpuset/foreground/cpus' action=init (/system/etc/init/hw/init.rc:278) took 0ms and failed: Could not read input file '/dev/cpuset/cpus': open() failed: No such file or directory
+[11248.245231] init: Command 'copy /dev/cpuset/mems /dev/cpuset/foreground/mems' action=init (/system/etc/init/hw/init.rc:279) took 0ms and failed: Could not read input file '/dev/cpuset/mems': open() failed: No such file or directory
+[11248.245507] init: Command 'copy /dev/cpuset/cpus /dev/cpuset/background/cpus' action=init (/system/etc/init/hw/init.rc:281) took 0ms and failed: Could not read input file '/dev/cpuset/cpus': open() failed: No such file or directory
+[11248.245579] init: Command 'copy /dev/cpuset/mems /dev/cpuset/background/mems' action=init (/system/etc/init/hw/init.rc:282) took 0ms and failed: Could not read input file '/dev/cpuset/mems': open() failed: No such file or directory
+[11248.245864] init: Command 'copy /dev/cpuset/cpus /dev/cpuset/system-background/cpus' action=init (/system/etc/init/hw/init.rc:288) took 0ms and failed: Could not read input file '/dev/cpuset/cpus': open() failed: No such file or directory
+[11248.245932] init: Command 'copy /dev/cpuset/mems /dev/cpuset/system-background/mems' action=init (/system/etc/init/hw/init.rc:289) took 0ms and failed: Could not read input file '/dev/cpuset/mems': open() failed: No such file or directory
+[11248.246208] init: Command 'copy /dev/cpuset/cpus /dev/cpuset/restricted/cpus' action=init (/system/etc/init/hw/init.rc:294) took 0ms and failed: Could not read input file '/dev/cpuset/cpus': open() failed: No such file or directory
+[11248.246276] init: Command 'copy /dev/cpuset/mems /dev/cpuset/restricted/mems' action=init (/system/etc/init/hw/init.rc:295) took 0ms and failed: Could not read input file '/dev/cpuset/mems': open() failed: No such file or directory
+[11248.246545] init: Command 'copy /dev/cpuset/cpus /dev/cpuset/top-app/cpus' action=init (/system/etc/init/hw/init.rc:298) took 0ms and failed: Could not read input file '/dev/cpuset/cpus': open() failed: No such file or directory
+[11248.246613] init: Command 'copy /dev/cpuset/mems /dev/cpuset/top-app/mems' action=init (/system/etc/init/hw/init.rc:299) took 0ms and failed: Could not read input file '/dev/cpuset/mems': open() failed: No such file or directory
+[11248.255776] init: Command 'symlink /proc/self/fd /dev/fd' action=init (/system/etc/init/hw/init.rc:361) took 0ms and failed: symlink() failed: File exists
+[11248.256685] init: Command 'chown system system /sys/power/state' action=init (/system/etc/init/hw/init.rc:376) took 0ms and failed: lchown() failed: Read-only file system
+[11248.256761] init: Command 'chown system system /sys/power/wakeup_count' action=init (/system/etc/init/hw/init.rc:377) took 0ms and failed: lchown() failed: Read-only file system
+[11248.256836] init: Command 'chmod 0660 /sys/power/state' action=init (/system/etc/init/hw/init.rc:378) took 0ms and failed: fchmodat() failed: Read-only file system
+[11248.257140] init: starting service 'logd'...
+[11248.257263] init: Created socket '/dev/socket/logd', mode 666, user 1036, group 1036
+[11248.257348] init: Created socket '/dev/socket/logdr', mode 666, user 1036, group 1036
+[11248.257434] init: Created socket '/dev/socket/logdw', mode 222, user 1036, group 1036
+[11248.257484] init: Opened file '/proc/kmsg', flags 0
+[11248.257523] init: Opened file '/dev/kmsg', flags 1
+[11248.259258] libprocessgroup: Failed to make and chown /acct/uid_1036: Read-only file system
+[11248.259313] init: createProcessGroup(1036, 20) failed for service 'logd': Read-only file system
+[11248.260759] init: starting service 'lmkd'...
+[11248.260893] init: Created socket '/dev/socket/lmkd', mode 660, user 1000, group 1000
+[11248.262682] libprocessgroup: Failed to make and chown /acct/uid_1069: Read-only file system
+[11248.262735] init: createProcessGroup(1069, 21) failed for service 'lmkd': Read-only file system
+[11248.264228] init: starting service 'servicemanager'...
+[11248.265834] libprocessgroup: Failed to make and chown /acct/uid_1000: Read-only file system
+[11248.265904] init: createProcessGroup(1000, 22) failed for service 'servicemanager': Read-only file system
+[11248.267808] init: starting service 'hwservicemanager'...
+[11248.269339] libprocessgroup: Failed to make and chown /acct/uid_1000: Read-only file system
+[11248.269389] init: createProcessGroup(1000, 23) failed for service 'hwservicemanager': Read-only file system
+[11248.270360] init: starting service 'vndservicemanager'...
+[11248.271700] libprocessgroup: Failed to make and chown /acct/uid_1000: Read-only file system
+[11248.271750] init: createProcessGroup(1000, 24) failed for service 'vndservicemanager': Read-only file system
+[11248.272755] init: processing action (ro.debuggable=1 && init) from (/system/etc/init/hw/init.rc:1058)
+[11248.272887] init: processing action (init) from (/system/etc/init/hw/init.usb.rc:24)
+[11248.273069] init: processing action (init) from (/system/etc/init/audioserver.rc:56)
+[11248.273934] init: processing action (init) from (/system/etc/init/lineage-iosched.rc:1)
+[11248.274636] cgroup: Unknown subsys name 'bfqio'
+[11248.274758] init: Command 'mount cgroup none /dev/bfqio bfqio' action=init (/system/etc/init/lineage-iosched.rc:4) took 0ms and failed: mount() failed: Invalid argument
+[11248.276348] init: processing action (init) from (/system/etc/init/lineage-system.rc:2)
+[11248.276441] init: processing action (late-init) from (/system/etc/init/hw/init.rc:415)
+[11248.276692] init: processing action (late-init) from (/system/etc/init/atrace.rc:3)
+[11248.284065] init: processing action (queue_property_triggers) from (<Builtin Action>:0)
+[11248.284168] init: processing action (early-fs) from (/system/etc/init/hw/init.rc:455)
+[11248.284336] init: starting service 'vold'...
+[11248.286039] libprocessgroup: Failed to make and chown /acct/uid_0: Read-only file system
+[11248.286110] init: createProcessGroup(0, 25) failed for service 'vold': Read-only file system
+[11248.286921] init: processing action (fs) from (/system/etc/init/hw/init.rc:451)
+[11248.287304] init: Userdata mounted using /dev/null result : 1
+[11248.287880] init: processing action (fs) from (/system/etc/init/logd.rc:28)
+[11248.288449] init: processing action (fs) from (/system/etc/init/wifi.rc:25)
+[11248.288747] init: processing action (post-fs) from (/system/etc/init/hw/init.rc:459)
+[11248.288955] init: starting service 'exec 2 (/system/bin/vdc checkpoint markBootAttempt)'...
+[11248.291820] libprocessgroup: Failed to make and chown /acct/uid_1000: Read-only file system
+[11248.291908] init: createProcessGroup(1000, 26) failed for service 'exec 2 (/system/bin/vdc checkpoint markBootAttempt)': Read-only file system
+[11248.291958] init: SVC_EXEC service 'exec 2 (/system/bin/vdc checkpoint markBootAttempt)' pid 26 (uid 1000 gid 1000+0 context default) started; waiting...
+[11248.322798] logd.auditd: start
+[11248.322826] logd.klogd: 11248659807451
+[11248.401156] init: Service 'exec 2 (/system/bin/vdc checkpoint markBootAttempt)' (pid 26) exited with status 0 waiting took 0.110000 seconds
+[11248.401208] init: Sending signal 9 to service 'exec 2 (/system/bin/vdc checkpoint markBootAttempt)' (pid 26) process group...
+[11248.401343] libprocessgroup: Successfully killed process cgroup uid 1000 pid 26 in 0ms
+[11248.403572] init: Command 'chown system cache /cache' action=post-fs (/system/etc/init/hw/init.rc:471) took 0ms and failed: lchown() failed: Read-only file system
+[11248.403709] init: Command 'chmod 0770 /cache' action=post-fs (/system/etc/init/hw/init.rc:472) took 0ms and failed: fchmodat() failed: Read-only file system
+[11248.405097] init: Command 'chown root system /proc/sysrq-trigger' action=post-fs (/system/etc/init/hw/init.rc:494) took 0ms and failed: lchown() failed: Read-only file system
+[11248.405173] init: Command 'chmod 0220 /proc/sysrq-trigger' action=post-fs (/system/etc/init/hw/init.rc:495) took 0ms and failed: fchmodat() failed: Read-only file system
+[11248.407634] init: processing action (post-fs) from (/system/etc/init/atrace_userdebug.rc:7)
+[11248.408087] init: processing action (post-fs) from (/system/etc/init/gsid.rc:8)
+[11248.408731] init: processing action (post-fs) from (/system/etc/init/recovery-refresh.rc:1)
+[11248.408922] init: starting service 'exec 3 (/system/bin/recovery-refresh)'...
+[11248.410655] libprocessgroup: Failed to make and chown /acct/uid_1000: Read-only file system
+[11248.410727] init: createProcessGroup(1000, 36) failed for service 'exec 3 (/system/bin/recovery-refresh)': Read-only file system
+[11248.410910] init: processing action (late-fs) from (/system/etc/init/hw/init.rc:523)
+[11248.414247] init: starting service 'system_suspend'...
+[11248.415780] libprocessgroup: Failed to make and chown /acct/uid_1000: Read-only file system
+[11248.415835] init: createProcessGroup(1000, 37) failed for service 'system_suspend': Read-only file system
+[11248.417216] init: starting service 'vendor.keymaster-4-0'...
+[11248.419390] libprocessgroup: Failed to make and chown /acct/uid_1000: Read-only file system
+[11248.419453] init: createProcessGroup(1000, 38) failed for service 'vendor.keymaster-4-0': Read-only file system
+[11248.420608] init: processing action (post-fs-data) from (/system/etc/init/hw/init.rc:532)
+[11248.420800] init: starting service 'exec 4 (/system/bin/vdc checkpoint prepareCheckpoint)'...
+[11248.422536] libprocessgroup: Failed to make and chown /acct/uid_1000: Read-only file system
+[11248.422636] init: createProcessGroup(1000, 39) failed for service 'exec 4 (/system/bin/vdc checkpoint prepareCheckpoint)': Read-only file system
+[11248.422694] init: SVC_EXEC service 'exec 4 (/system/bin/vdc checkpoint prepareCheckpoint)' pid 39 (uid 1000 gid 1000+0 context default) started; waiting...
+[11248.427987] init: Service 'exec 3 (/system/bin/recovery-refresh)' (pid 36) exited with status 254 oneshot service took 0.017000 seconds in background
+[11248.428017] init: Sending signal 9 to service 'exec 3 (/system/bin/recovery-refresh)' (pid 36) process group...
+[11248.428107] libprocessgroup: Successfully killed process cgroup uid 1000 pid 36 in 0ms
+[11248.436055] init: Service 'exec 4 (/system/bin/vdc checkpoint prepareCheckpoint)' (pid 39) exited with status 0 waiting took 0.013000 seconds
+[11248.436090] init: Sending signal 9 to service 'exec 4 (/system/bin/vdc checkpoint prepareCheckpoint)' (pid 39) process group...
+[11248.436183] libprocessgroup: Successfully killed process cgroup uid 1000 pid 39 in 0ms
+[11248.436767] init: Switched to default mount namespace
+[11248.436805] init: Not setting encryption policy on: /data/apex
+[11248.437013] init: Not setting encryption policy on: /data/app-staging
+[11248.437076] init: starting service 'apexd'...
+[11248.438251] libprocessgroup: Failed to make and chown /acct/uid_0: Read-only file system
+[11248.438311] init: createProcessGroup(0, 42) failed for service 'apexd': Read-only file system
+[11248.450416] init: Not setting encryption policy on: /data/preloads
+[11248.450587] init: Not setting encryption policy on: /data/vendor_ce
+[11248.450669] init: Not setting encryption policy on: /data/vendor_de
+[11248.452309] init: Not setting encryption policy on: /data/data
+[11248.456737] init: Not setting encryption policy on: /data/lost+found
+[11248.457015] apexd: This device does not support updatable APEX. Exiting
+[11248.457066] apexd: Marking APEXd as activated
+[11248.460099] init: Not setting encryption policy on: /data/system_de
+[11248.460250] init: Not setting encryption policy on: /data/system_ce
+[11248.460348] init: Not setting encryption policy on: /data/misc_de
+[11248.460423] init: Not setting encryption policy on: /data/misc_ce
+[11248.460486] init: Not setting encryption policy on: /data/user
+[11248.460544] init: Not setting encryption policy on: /data/user_de
+[11248.460663] init: Command 'rm /data/user/0' action=post-fs-data (/system/etc/init/hw/init.rc:710) took 0ms and failed: unlink() failed: Is a directory
+[11248.460874] init: Service 'apexd' (pid 42) exited with status 0 oneshot service took 0.022000 seconds in background
+[11248.460891] init: Sending signal 9 to service 'apexd' (pid 42) process group...
+[11248.460970] libprocessgroup: Successfully killed process cgroup uid 0 pid 42 in 0ms
+[11248.469857] init: start_waiting_for_property("apexd.status", "activated"): already set
+[11248.479654] init: Parsing file /apex/com.android.adbd/etc/init.rc...
+[11248.480066] init: Parsing file /apex/com.android.media.swcodec/etc/init.rc...
+[11248.481872] init: Parsing file /apex/com.android.os.statsd/etc/init.rc...
+[11248.482194] init: Parsing file /apex/com.android.sdkext/etc/derive_sdk.rc...
+[11248.482424] init: Not setting encryption policy on: /data/media
+[11248.482787] init: starting service 'exec 5 (/system/bin/chattr +F /data/media)'...
+[11248.484903] libprocessgroup: Failed to make and chown /acct/uid_1023: Read-only file system
+[11248.484996] init: createProcessGroup(1023, 43) failed for service 'exec 5 (/system/bin/chattr +F /data/media)': Read-only file system
+[11248.485046] init: SVC_EXEC service 'exec 5 (/system/bin/chattr +F /data/media)' pid 43 (uid 1023 gid 1023+0 context default) started; waiting...
+[11248.504820] init: Service 'exec 5 (/system/bin/chattr +F /data/media)' (pid 43) exited with status 1 waiting took 0.020000 seconds
+[11248.504863] init: Sending signal 9 to service 'exec 5 (/system/bin/chattr +F /data/media)' (pid 43) process group...
+[11248.505002] libprocessgroup: Successfully killed process cgroup uid 1023 pid 43 in 0ms
+[11248.507843] init: starting service 'derive_sdk'...
+[11248.509170] libprocessgroup: Failed to make and chown /acct/uid_9999: Read-only file system
+[11248.509222] init: createProcessGroup(9999, 44) failed for service 'derive_sdk': Read-only file system
+[11248.511691] init: SVC_EXEC service 'derive_sdk' pid 44 (uid 9999 gid 9999+0 context default) started; waiting...
+[11248.523763] init: Service 'derive_sdk' (pid 44) exited with status 0 waiting took 0.014000 seconds
+[11248.523796] init: Sending signal 9 to service 'derive_sdk' (pid 44) process group...
+[11248.523875] libprocessgroup: Successfully killed process cgroup uid 9999 pid 44 in 0ms
+[11248.524651] init: starting service 'exec 6 (/system/bin/vdc --wait cryptfs init_user0)'...
+[11248.525892] libprocessgroup: Failed to make and chown /acct/uid_0: Read-only file system
+[11248.525956] init: createProcessGroup(0, 45) failed for service 'exec 6 (/system/bin/vdc --wait cryptfs init_user0)': Read-only file system
+[11248.525994] init: SVC_EXEC service 'exec 6 (/system/bin/vdc --wait cryptfs init_user0)' pid 45 (uid 0 gid 0+0 context default) started; waiting...
+[11248.538124] vdc: Waited 0ms for vold
+[11248.561717] init: Service 'exec 6 (/system/bin/vdc --wait cryptfs init_user0)' (pid 45) exited with status 0 waiting took 0.035000 seconds
+[11248.561752] init: Sending signal 9 to service 'exec 6 (/system/bin/vdc --wait cryptfs init_user0)' (pid 45) process group...
+[11248.561844] libprocessgroup: Successfully killed process cgroup uid 0 pid 45 in 0ms
+[11248.562058] init: starting service 'apexd-snapshotde'...
+[11248.563344] libprocessgroup: Failed to make and chown /acct/uid_0: Read-only file system
+[11248.563389] init: createProcessGroup(0, 47) failed for service 'apexd-snapshotde': Read-only file system
+[11248.564411] init: SVC_EXEC service 'apexd-snapshotde' pid 47 (uid 0 gid 1000+0 context default) started; waiting...
+[11248.592075] apexd: This device does not support updatable APEX. Exiting
+[11248.592125] apexd: Marking APEXd as ready
+[11248.594075] init: Service 'apexd-snapshotde' (pid 47) exited with status 0 waiting took 0.030000 seconds
+[11248.594097] init: Sending signal 9 to service 'apexd-snapshotde' (pid 47) process group...
+[11248.594178] libprocessgroup: Successfully killed process cgroup uid 0 pid 47 in 0ms
+[11248.594722] init: starting service 'exec 7 (/system/bin/tzdatacheck /apex/com.android.tzdata/etc/tz /data/misc/zoneinfo)'...
+[11248.595909] libprocessgroup: Failed to make and chown /acct/uid_1000: Read-only file system
+[11248.595958] init: createProcessGroup(1000, 48) failed for service 'exec 7 (/system/bin/tzdatacheck /apex/com.android.tzdata/etc/tz /data/misc/zoneinfo)': Read-only file system
+[11248.595983] init: SVC_EXEC service 'exec 7 (/system/bin/tzdatacheck /apex/com.android.tzdata/etc/tz /data/misc/zoneinfo)' pid 48 (uid 1000 gid 1000+0 context default) started; waiting...
+[11248.615198] init: Service 'exec 7 (/system/bin/tzdatacheck /apex/com.android.tzdata/etc/tz /data/misc/zoneinfo)' (pid 48) exited with status 0 waiting took 0.019000 seconds
+[11248.615229] init: Sending signal 9 to service 'exec 7 (/system/bin/tzdatacheck /apex/com.android.tzdata/etc/tz /data/misc/zoneinfo)' (pid 48) process group...
+[11248.615318] libprocessgroup: Successfully killed process cgroup uid 1000 pid 48 in 0ms
+[11248.616028] init: processing action (post-fs-data) from (/system/etc/init/hw/init.usb.rc:6)
+[11248.616334] init: processing action (post-fs-data) from (/system/etc/init/adb_root.rc:6)
+[11248.616389] init: processing action (post-fs-data) from (/system/etc/init/bootstat.rc:9)
+[11248.618539] init: processing action (post-fs-data) from (/system/etc/init/gsid.rc:14)
+[11248.618580] init: Not setting encryption policy on: /data/gsi
+[11248.618746] init: processing action (post-fs-data) from (/system/etc/init/incidentd.rc:21)
+[11248.618796] init: processing action (post-fs-data) from (/system/etc/init/init.waydroid.rc:9)
+[11248.618817] init: Top-level directory needs encryption action, eg mkdir /data/icons <mode> <uid> <gid> encryption=Require
+[11248.618856] init: Top-level directory needs encryption action, eg mkdir /data/waydroid_tmp <mode> <uid> <gid> encryption=Require
+[11248.618903] init: processing action (post-fs-data) from (/system/etc/init/iorapd.rc:28)
+[11248.618964] init: processing action (post-fs-data) from (/system/etc/init/lineage-ssh.rc:1)
+[11248.619111] init: processing action (post-fs-data) from (/system/etc/init/lineage-system.rc:5)
+[11248.619214] init: processing action (post-fs-data) from (/system/etc/init/lineage-updates.rc:1)
+[11248.619273] init: processing action (post-fs-data) from (/system/etc/init/logtagd.rc:4)
+[11248.619840] init: processing action (post-fs-data) from (/system/etc/init/perfetto.rc:67)
+[11248.619909] init: Command 'rm /data/misc/perfetto-traces/.guardraildata' action=post-fs-data (/system/etc/init/perfetto.rc:68) took 0ms and failed: unlink() failed: No such file or directory
+[11248.619936] init: processing action (post-fs-data) from (/system/etc/init/recovery-persist.rc:1)
+[11248.620101] init: starting service 'exec 8 (/system/bin/recovery-persist)'...
+[11248.621235] libprocessgroup: Failed to make and chown /acct/uid_1000: Read-only file system
+[11248.621285] init: createProcessGroup(1000, 49) failed for service 'exec 8 (/system/bin/recovery-persist)': Read-only file system
+[11248.621400] init: processing action (post-fs-data) from (/system/etc/init/tombstoned.rc:10)
+[11248.621528] init: starting service 'tombstoned'...
+[11248.621648] init: Created socket '/dev/socket/tombstoned_crash', mode 666, user 1000, group 1000
+[11248.621711] init: Created socket '/dev/socket/tombstoned_intercept', mode 666, user 1000, group 1000
+[11248.621761] init: Created socket '/dev/socket/tombstoned_java_trace', mode 666, user 1000, group 1000
+[11248.623169] libprocessgroup: Failed to make and chown /acct/uid_1058: Read-only file system
+[11248.623220] init: createProcessGroup(1058, 50) failed for service 'tombstoned': Read-only file system
+[11248.624288] init: processing action (post-fs-data) from (/system/etc/init/wifi.rc:18)
+[11248.624365] init: processing action (load_persist_props_action) from (/system/etc/init/hw/init.rc:405)
+[11248.624477] init: Couldn't load property file '/data/local.prop': open() failed: No such file or directory: No such file or directory
+[11248.625606] init: Wait for property 'ro.persistent_properties.ready=true' took 1ms
+[11248.625770] init: starting service 'logd-reinit'...
+[11248.626989] libprocessgroup: Failed to make and chown /acct/uid_1036: Read-only file system
+[11248.627101] init: createProcessGroup(1036, 51) failed for service 'logd-reinit': Read-only file system
+[11248.628710] init: processing action (load_persist_props_action) from (/system/etc/init/flags_health_check.rc:1)
+[11248.628868] init: Top-level directory needs encryption action, eg mkdir /data/server_configurable_flags <mode> <uid> <gid> encryption=Require
+[11248.629447] init: starting service 'exec 9 (/system/bin/flags_health_check BOOT_FAILURE)'...
+[11248.631687] libprocessgroup: Failed to make and chown /acct/uid_1000: Read-only file system
+[11248.631850] init: createProcessGroup(1000, 52) failed for service 'exec 9 (/system/bin/flags_health_check BOOT_FAILURE)': Read-only file system
+[11248.631955] init: SVC_EXEC service 'exec 9 (/system/bin/flags_health_check BOOT_FAILURE)' pid 52 (uid 1000 gid 1000+0 context default) started; waiting...
+[11248.640173] init: Service 'exec 8 (/system/bin/recovery-persist)' (pid 49) exited with status 0 oneshot service took 0.018000 seconds in background
+[11248.640218] init: Sending signal 9 to service 'exec 8 (/system/bin/recovery-persist)' (pid 49) process group...
+[11248.640317] libprocessgroup: Successfully killed process cgroup uid 1000 pid 49 in 0ms
+[11248.642842] logd.daemon: reinit
+[11248.643827] init: Service 'logd-reinit' (pid 51) exited with status 0 oneshot service took 0.016000 seconds in background
+[11248.643863] init: Sending signal 9 to service 'logd-reinit' (pid 51) process group...
+[11248.643959] libprocessgroup: Successfully killed process cgroup uid 1036 pid 51 in 0ms
+[11248.658738] init: Service 'exec 9 (/system/bin/flags_health_check BOOT_FAILURE)' (pid 52) exited with status 0 waiting took 0.027000 seconds
+[11248.659096] init: Sending signal 9 to service 'exec 9 (/system/bin/flags_health_check BOOT_FAILURE)' (pid 52) process group...
+[11248.659246] libprocessgroup: Successfully killed process cgroup uid 1000 pid 52 in 0ms
+[11248.659552] init: processing action (load_persist_props_action) from (/system/etc/init/logcatd.rc:29)
+[11248.659968] init: processing action (load_bpf_programs) from (/system/etc/init/bpfloader.rc:20)
+[11248.661131] init: starting service 'bpfloader'...
+[11248.663228] libprocessgroup: Failed to make and chown /acct/uid_0: Read-only file system
+[11248.663296] init: createProcessGroup(0, 53) failed for service 'bpfloader': Read-only file system
+[11248.664477] init: processing action (persist.sys.fuse=true && zygote-start) from (/system/etc/init/hw/init.rc:802)
+[11248.665909] init: processing action (ro.crypto.state=unencrypted && zygote-start) from (/system/etc/init/hw/init.rc:817)
+[11248.665948] init: Command 'exec_start update_verifier_nonencrypted' action=ro.crypto.state=unencrypted && zygote-start (/system/etc/init/hw/init.rc:819) took 0ms and failed: Service not found
+[11248.666179] init: starting service 'statsd'...
+[11248.666311] init: Created socket '/dev/socket/statsdw', mode 222, user 1066, group 1066
+[11248.667631] libprocessgroup: Failed to make and chown /acct/uid_1066: Read-only file system
+[11248.667680] init: createProcessGroup(1066, 54) failed for service 'statsd': Read-only file system
+[11248.668546] init: starting service 'netd'...
+[11248.668654] init: Created socket '/dev/socket/dnsproxyd', mode 660, user 0, group 3003
+[11248.668708] init: Created socket '/dev/socket/mdns', mode 660, user 0, group 1000
+[11248.668761] init: Created socket '/dev/socket/fwmarkd', mode 660, user 0, group 3003
+[11248.670018] libprocessgroup: Failed to make and chown /acct/uid_0: Read-only file system
+[11248.670065] init: createProcessGroup(0, 55) failed for service 'netd': Read-only file system
+[11248.671149] init: starting service 'zygote'...
+[11248.671326] init: Created socket '/dev/socket/zygote', mode 660, user 0, group 1000
+[11248.671414] init: Created socket '/dev/socket/usap_pool_primary', mode 660, user 0, group 1000
+[11248.674118] libprocessgroup: Failed to make and chown /acct/uid_0: Read-only file system
+[11248.674200] init: createProcessGroup(0, 56) failed for service 'zygote': Read-only file system
+[11248.675487] init: starting service 'zygote_secondary'...
+[11248.675716] init: Created socket '/dev/socket/zygote_secondary', mode 660, user 0, group 1000
+[11248.675824] init: Created socket '/dev/socket/usap_pool_secondary', mode 660, user 0, group 1000
+[11248.676735] libprocessgroup: Failed to open /dev/stune/top-app/tasks: No such file or directory: No such file or directory
+[11248.676766] libprocessgroup: Failed to apply MaxPerformance task profile: No such file or directory
+[11248.677942] libprocessgroup: Failed to make and chown /acct/uid_0: Read-only file system
+[11248.678022] init: createProcessGroup(0, 57) failed for service 'zygote_secondary': Read-only file system
+[11248.678949] init: processing action (firmware_mounts_complete) from (/system/etc/init/hw/init.rc:411)
+[11248.679134] init: processing action (early-boot) from (/system/etc/init/installd.rc:5)
+[11248.680693] libprocessgroup: Failed to open /dev/stune/top-app/tasks: No such file or directory: No such file or directory
+[11248.680737] libprocessgroup: Failed to apply MaxPerformance task profile: No such file or directory
+[11248.697724] init: processing action (boot) from (/system/etc/init/hw/init.rc:841)
+[11248.698130] init: Command 'hostname localhost' action=boot (/system/etc/init/hw/init.rc:844) took 0ms and failed: Unable to write to /proc/sys/kernel/hostname: open() failed: Read-only file system
+[11248.698335] init: Command 'domainname localdomain' action=boot (/system/etc/init/hw/init.rc:845) took 0ms and failed: Unable to write to /proc/sys/kernel/domainname: open() failed: Read-only file system
+[11248.698776] init: Command 'write /proc/sys/vm/overcommit_memory 1' action=boot (/system/etc/init/hw/init.rc:853) took 0ms and failed: Unable to write to file '/proc/sys/vm/overcommit_memory': open() failed: Read-only file system
+[11248.699606] init: Command 'write /proc/sys/vm/dirty_expire_centisecs 200' action=boot (/system/etc/init/hw/init.rc:863) took 0ms and failed: Unable to write to file '/proc/sys/vm/dirty_expire_centisecs': open() failed: Read-only file system
+[11248.700004] init: Command 'write /proc/sys/vm/dirty_background_ratio 5' action=boot (/system/etc/init/hw/init.rc:864) took 0ms and failed: Unable to write to file '/proc/sys/vm/dirty_background_ratio': open() failed: Read-only file system
+[11248.700122] init: Command 'write /sys/fs/f2fs/${dev.mnt.blk.data}/cp_interval 200' action=boot (/system/etc/init/hw/init.rc:870) took 0ms and failed: property 'dev.mnt.blk.data' doesn't exist while expanding '/sys/fs/f2fs/${dev.mnt.blk.data}/cp_interval'
+[11248.700238] init: Command 'write /sys/fs/f2fs/${dev.mnt.blk.data}/gc_urgent_sleep_time 50' action=boot (/system/etc/init/hw/init.rc:871) took 0ms and failed: property 'dev.mnt.blk.data' doesn't exist while expanding '/sys/fs/f2fs/${dev.mnt.blk.data}/gc_urgent_sleep_time'
+[11248.700366] init: Command 'write /sys/fs/f2fs/${dev.mnt.blk.data}/iostat_enable 1' action=boot (/system/etc/init/hw/init.rc:872) took 0ms and failed: property 'dev.mnt.blk.data' doesn't exist while expanding '/sys/fs/f2fs/${dev.mnt.blk.data}/iostat_enable'
+[11248.700429] init: Command 'write /sys/devices/virtual/block/${dev.mnt.blk.data}/queue/discard_max_bytes 134217728' action=boot (/system/etc/init/hw/init.rc:877) took 0ms and failed: property 'dev.mnt.blk.data' doesn't exist while expanding '/sys/devices/virtual/block/${dev.mnt.blk.data}/queue/discard_max_bytes'
+[11248.701432] init: Command 'chown system system /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq' action=boot (/system/etc/init/hw/init.rc:907) took 0ms and failed: lchown() failed: Read-only file system
+[11248.701564] init: Command 'chmod 0660 /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq' action=boot (/system/etc/init/hw/init.rc:908) took 0ms and failed: fchmodat() failed: Read-only file system
+[11248.702925] init: starting service 'hidl_memory'...
+[11248.704778] libprocessgroup: Failed to make and chown /acct/uid_1000: Read-only file system
+[11248.704851] init: createProcessGroup(1000, 58) failed for service 'hidl_memory': Read-only file system
+[11248.705598] init: Could not start service 'vendor.audio-hal-2-0' as part of class 'hal': Cannot find '/vendor/bin/hw/android.hardware.audio@2.0-service': No such file or directory
+[11248.705720] init: starting service 'vendor.audio-hal'...
+[11248.707788] libprocessgroup: Failed to make and chown /acct/uid_1000: Read-only file system
+[11248.707863] init: createProcessGroup(1000, 59) failed for service 'vendor.audio-hal': Read-only file system
+[11248.708743] init: starting service 'vendor.hwcomposer-2-1'...
+[11248.710606] libprocessgroup: Failed to open /dev/stune/foreground/tasks: No such file or directory: No such file or directory
+[11248.710658] libprocessgroup: Failed to apply HighPerformance task profile: No such file or directory
+[11248.711254] libprocessgroup: Failed to make and chown /acct/uid_1000: Read-only file system
+[11248.711333] init: createProcessGroup(1000, 60) failed for service 'vendor.hwcomposer-2-1': Read-only file system
+[11248.712081] init: starting service 'vendor.camera-provider-2-4'...
+[11248.713536] libprocessgroup: Failed to make and chown /acct/uid_1047: Read-only file system
+[11248.713603] init: createProcessGroup(1047, 61) failed for service 'vendor.camera-provider-2-4': Read-only file system
+[11248.714231] init: failed to write pid to files: couldn't write 61 to /dev/cpuset/camera-daemon/tasks: No such file or directory
+[11248.715048] init: starting service 'task-hal-1-0'...
+[11248.716986] libprocessgroup: Failed to make and chown /acct/uid_1000: Read-only file system
+[11248.717117] init: createProcessGroup(1000, 62) failed for service 'task-hal-1-0': Read-only file system
+[11248.720515] init: starting service 'vendor.cas-hal-1-2'...
+[11248.723622] libprocessgroup: Failed to make and chown /acct/uid_1013: Read-only file system
+[11248.723698] init: createProcessGroup(1013, 63) failed for service 'vendor.cas-hal-1-2': Read-only file system
+[11248.724495] init: starting service 'vendor.configstore-hal'...
+[11248.726530] libprocessgroup: Failed to make and chown /acct/uid_1000: Read-only file system
+[11248.726610] init: createProcessGroup(1000, 64) failed for service 'vendor.configstore-hal': Read-only file system
+[11248.728176] init: starting service 'vendor.drm-hal-1-0'...
+[11248.730336] libprocessgroup: Failed to make and chown /acct/uid_1013: Read-only file system
+[11248.730411] init: createProcessGroup(1013, 65) failed for service 'vendor.drm-hal-1-0': Read-only file system
+[11248.731337] init: starting service 'vendor.drm-clearkey-hal-1-3'...
+[11248.733137] libprocessgroup: Failed to make and chown /acct/uid_1013: Read-only file system
+[11248.733219] init: createProcessGroup(1013, 66) failed for service 'vendor.drm-clearkey-hal-1-3': Read-only file system
+[11248.733977] init: starting service 'vendor.gatekeeper-1-0'...
+[11248.735901] libprocessgroup: Failed to make and chown /acct/uid_1000: Read-only file system
+[11248.735976] init: createProcessGroup(1000, 67) failed for service 'vendor.gatekeeper-1-0': Read-only file system
+[11248.736749] init: starting service 'vendor.gralloc-2-0'...
+[11248.738952] libprocessgroup: Failed to make and chown /acct/uid_1000: Read-only file system
+[11248.739146] init: createProcessGroup(1000, 68) failed for service 'vendor.gralloc-2-0': Read-only file system
+[11248.739922] init: starting service 'vendor.health-hal-2-0'...
+[11248.741181] libprocessgroup: Failed to make and chown /acct/uid_1000: Read-only file system
+[11248.741240] init: createProcessGroup(1000, 69) failed for service 'vendor.health-hal-2-0': Read-only file system
+[11248.742244] init: starting service 'vendor.light-hal-2-0'...
+[11248.744117] libprocessgroup: Failed to make and chown /acct/uid_1000: Read-only file system
+[11248.744175] init: createProcessGroup(1000, 70) failed for service 'vendor.light-hal-2-0': Read-only file system
+[11248.745686] init: starting service 'vendor.memtrack-hal-1-0'...
+[11248.746995] libprocessgroup: Failed to make and chown /acct/uid_1000: Read-only file system
+[11248.747532] init: createProcessGroup(1000, 71) failed for service 'vendor.memtrack-hal-1-0': Read-only file system
+[11248.748228] init: starting service 'vendor.power-hal-1-0'...
+[11248.749570] libprocessgroup: Failed to make and chown /acct/uid_1000: Read-only file system
+[11248.749628] init: createProcessGroup(1000, 72) failed for service 'vendor.power-hal-1-0': Read-only file system
+[11248.751610] init: starting service 'vendor.sensors-hal-1-0'...
+[11248.752957] libprocessgroup: Failed to make and chown /acct/uid_1000: Read-only file system
+[11248.753017] init: createProcessGroup(1000, 73) failed for service 'vendor.sensors-hal-1-0': Read-only file system
+[11248.754745] init: starting service 'vendor.vibrator-1-0'...
+[11248.756878] libprocessgroup: Failed to make and chown /acct/uid_1000: Read-only file system
+[11248.756937] init: createProcessGroup(1000, 74) failed for service 'vendor.vibrator-1-0': Read-only file system
+[11248.757817] init: Command 'class_start hal' action=boot (/system/etc/init/hw/init.rc:939) took 55ms and succeeded
+[11248.758046] init: starting service 'audioserver'...
+[11248.759523] libprocessgroup: Failed to make and chown /acct/uid_1041: Read-only file system
+[11248.759571] init: createProcessGroup(1041, 75) failed for service 'audioserver': Read-only file system
+[11248.760609] init: starting service 'credstore'...
+[11248.760930] libprocessgroup: Failed to open /dev/stune/foreground/tasks: No such file or directory: No such file or directory
+[11248.760954] libprocessgroup: Failed to apply HighPerformance task profile: No such file or directory
+[11248.761911] libprocessgroup: Failed to make and chown /acct/uid_1076: Read-only file system
+[11248.761965] init: createProcessGroup(1076, 76) failed for service 'credstore': Read-only file system
+[11248.762603] init: starting service 'gpu'...
+[11248.764157] libprocessgroup: Failed to make and chown /acct/uid_1072: Read-only file system
+[11248.764208] init: createProcessGroup(1072, 77) failed for service 'gpu': Read-only file system
+[11248.764905] init: starting service 'surfaceflinger'...
+[11248.765041] init: Could not create socket 'pdx/system/vr/display/client': Failed to bind socket 'pdx/system/vr/display/client': No such file or directory
+[11248.765104] init: Could not create socket 'pdx/system/vr/display/manager': Failed to bind socket 'pdx/system/vr/display/manager': No such file or directory
+[11248.765155] init: Could not create socket 'pdx/system/vr/display/vsync': Failed to bind socket 'pdx/system/vr/display/vsync': No such file or directory
+[11248.766462] libprocessgroup: Failed to make and chown /acct/uid_1000: Read-only file system
+[11248.766518] init: createProcessGroup(1000, 78) failed for service 'surfaceflinger': Read-only file system
+[11248.767984] init: starting service 'exec 10 (/system/bin/fsverity_init)'...
+[11248.767984] libprocessgroup: Failed to open /dev/stune/foreground/tasks: No such file or directory: No such file or directory
+[11248.768005] libprocessgroup: Failed to apply HighPerformance task profile: No such file or directory
+[11248.769378] libprocessgroup: Failed to make and chown /acct/uid_0: Read-only file system
+[11248.769431] init: createProcessGroup(0, 79) failed for service 'exec 10 (/system/bin/fsverity_init)': Read-only file system
+[11248.769471] init: SVC_EXEC service 'exec 10 (/system/bin/fsverity_init)' pid 79 (uid 0 gid 0+0 context default) started; waiting...
+[11248.828489] init: Service 'exec 10 (/system/bin/fsverity_init)' (pid 79) exited with status 255 waiting took 0.059000 seconds
+[11248.828520] init: Sending signal 9 to service 'exec 10 (/system/bin/fsverity_init)' (pid 79) process group...
+[11248.828597] libprocessgroup: Successfully killed process cgroup uid 0 pid 79 in 0ms
+[11248.828779] init: processing action (persist.sys.usb.config=* && boot) from (/system/etc/init/hw/init.usb.rc:105)
+[11248.829152] init: processing action (boot) from (/system/etc/init/dumpstate.rc:1)
+[11248.829276] init: processing action (boot) from (/system/etc/init/gsid.rc:20)
+[11248.829461] init: starting service 'exec 11 (/system/bin/gsid run-startup-tasks)'...
+[11248.830705] libprocessgroup: Failed to make and chown /acct/uid_0: Read-only file system
+[11248.830775] init: createProcessGroup(0, 80) failed for service 'exec 11 (/system/bin/gsid run-startup-tasks)': Read-only file system
+[11248.830925] init: processing action (boot) from (/system/etc/init/init.waydroid.rc:1)
+[11248.831334] init: processing action (boot) from (/system/etc/init/lineage-iosched.rc:16)
+[11248.831492] init: Command 'chown system system /sys/block/mmcblk0/queue/scheduler' action=boot (/system/etc/init/lineage-iosched.rc:18) took 0ms and failed: lchown() failed: Read-only file system
+[11248.831569] init: Command 'chmod 0664 /sys/block/mmcblk0/queue/scheduler' action=boot (/system/etc/init/lineage-iosched.rc:19) took 0ms and failed: fchmodat() failed: Read-only file system
+[11248.831780] init: processing action (enable_property_trigger) from (<Builtin Action>:0)
+[11248.832002] init: processing action (apexd.status=ready && ro.product.cpu.abilist32=*) from (/system/etc/init/hw/init.rc:89)
+[11248.850205] init: starting service 'boringssl_self_test_apex32'...
+[11248.851690] libprocessgroup: Failed to make and chown /acct/uid_0: Read-only file system
+[11248.851747] init: createProcessGroup(0, 87) failed for service 'boringssl_self_test_apex32': Read-only file system
+[11248.852541] init: SVC_EXEC service 'boringssl_self_test_apex32' pid 87 (uid 0 gid 0+0 context default) started; waiting...
+[11248.852674] init: Service 'bpfloader' (pid 53) exited with status 0 oneshot service took 0.189000 seconds in background
+[11248.852703] init: Sending signal 9 to service 'bpfloader' (pid 53) process group...
+[11248.852784] libprocessgroup: Successfully killed process cgroup uid 0 pid 53 in 0ms
+[11248.892689] init: Service 'boringssl_self_test_apex32' (pid 87) exited with status 0 waiting took 0.041000 seconds
+[11248.892746] init: Sending signal 9 to service 'boringssl_self_test_apex32' (pid 87) process group...
+[11248.892882] libprocessgroup: Successfully killed process cgroup uid 0 pid 87 in 0ms
+[11248.893866] init: processing action (apexd.status=ready && ro.product.cpu.abilist64=*) from (/system/etc/init/hw/init.rc:91)
+[11248.894102] init: starting service 'boringssl_self_test_apex64'...
+[11248.896726] libprocessgroup: Failed to make and chown /acct/uid_0: Read-only file system
+[11248.896841] init: createProcessGroup(0, 90) failed for service 'boringssl_self_test_apex64': Read-only file system
+[11248.897704] init: SVC_EXEC service 'boringssl_self_test_apex64' pid 90 (uid 0 gid 0+0 context default) started; waiting...
+[11248.899688] init: Service 'exec 11 (/system/bin/gsid run-startup-tasks)' (pid 80) exited with status 0 oneshot service took 0.069000 seconds in background
+[11248.899716] init: Sending signal 9 to service 'exec 11 (/system/bin/gsid run-startup-tasks)' (pid 80) process group...
+[11248.899815] libprocessgroup: Successfully killed process cgroup uid 0 pid 80 in 0ms
+[11248.948906] init: Service 'boringssl_self_test_apex64' (pid 90) exited with status 0 waiting took 0.052000 seconds
+[11248.948935] init: Sending signal 9 to service 'boringssl_self_test_apex64' (pid 90) process group...
+[11248.949031] libprocessgroup: Successfully killed process cgroup uid 0 pid 90 in 0ms
+[11248.949538] init: processing action (security.perf_harden=1 && sys.init.perf_lsm_hooks=) from (/system/etc/init/hw/init.rc:1014)
+[11248.949871] init: Command 'write /proc/sys/kernel/perf_event_paranoid 3' action=security.perf_harden=1 && sys.init.perf_lsm_hooks= (/system/etc/init/hw/init.rc:1015) took 0ms and failed: Unable to write to file '/proc/sys/kernel/perf_event_paranoid': open() failed: Read-only file system
+[11248.949961] init: processing action (security.perf_harden=1) from (/system/etc/init/hw/init.rc:1024)
+[11248.950143] init: Command 'write /proc/sys/kernel/perf_event_max_sample_rate 100000' action=security.perf_harden=1 (/system/etc/init/hw/init.rc:1025) took 0ms and failed: Unable to write to file '/proc/sys/kernel/perf_event_max_sample_rate': open() failed: Read-only file system
+[11248.950329] init: Command 'write /proc/sys/kernel/perf_cpu_time_max_percent 25' action=security.perf_harden=1 (/system/etc/init/hw/init.rc:1026) took 0ms and failed: Unable to write to file '/proc/sys/kernel/perf_cpu_time_max_percent': open() failed: Read-only file system
+[11248.950522] init: Command 'write /proc/sys/kernel/perf_event_mlock_kb 516' action=security.perf_harden=1 (/system/etc/init/hw/init.rc:1027) took 0ms and failed: Unable to write to file '/proc/sys/kernel/perf_event_mlock_kb': open() failed: Read-only file system
+[11248.950567] init: processing action (ro.debuggable=1) from (/system/etc/init/hw/init.rc:1051)
+[11248.950714] init: processing action (sys.usb.config=adb && sys.usb.configfs=0) from (/system/etc/init/hw/init.usb.rc:37)
+[11248.964782] init: starting service 'adbd'...
+[11248.964959] init: Created socket '/dev/socket/adbd', mode 660, user 1000, group 1000
+[11248.966263] libprocessgroup: Failed to make and chown /acct/uid_0: Read-only file system
+[11248.966320] init: createProcessGroup(0, 91) failed for service 'adbd': Read-only file system
+[11248.967490] init: processing action (init.svc.audioserver=running) from (/system/etc/init/audioserver.rc:35)
+[11248.967591] init: Command 'start vendor.audio-hal-4-0-msd' action=init.svc.audioserver=running (/system/etc/init/audioserver.rc:37) took 0ms and failed: service vendor.audio-hal-4-0-msd not found
+[11248.967694] init: Command 'start audio-hal-2-0' action=init.svc.audioserver=running (/system/etc/init/audioserver.rc:40) took 0ms and failed: service audio-hal-2-0 not found
+[11248.967722] init: processing action (ro.persistent_properties.ready=true) from (/system/etc/init/bootstat.rc:67)
+[11248.967978] init: processing action (ro.persistent_properties.ready=true) from (/system/etc/init/bootstat.rc:71)
+[11248.968161] init: starting service 'exec 12 (/system/bin/bootstat --set_system_boot_reason)'...
+[11248.969534] libprocessgroup: Failed to make and chown /acct/uid_1000: Read-only file system
+[11248.969595] init: createProcessGroup(1000, 92) failed for service 'exec 12 (/system/bin/bootstat --set_system_boot_reason)': Read-only file system
+[11248.969741] init: processing action (persist.heapprofd.enable= && traced.lazy.heapprofd=) from (/system/etc/init/heapprofd.rc:34)
+[11248.970186] init: processing action (ro.iorapd.enable=false) from (/system/etc/init/iorapd.rc:25)
+[11248.970435] init: processing action (debug.atrace.user_initiated= && persist.traced.enable=1) from (/system/etc/init/perfetto.rc:47)
+[11248.970556] init: starting service 'traced_probes'...
+[11248.970592] init: Opened file '/dev/kmsg', flags 1
+[11248.972131] libprocessgroup: Failed to make and chown /acct/uid_9999: Read-only file system
+[11248.972178] init: createProcessGroup(9999, 93) failed for service 'traced_probes': Read-only file system
+[11248.972775] init: processing action (persist.traced.enable=1) from (/system/etc/init/perfetto.rc:50)
+[11248.973050] init: starting service 'traced'...
+[11248.973182] init: Created socket '/dev/socket/traced_consumer', mode 666, user 0, group 0
+[11248.973242] init: Created socket '/dev/socket/traced_producer', mode 666, user 0, group 0
+[11248.974677] libprocessgroup: Failed to make and chown /acct/uid_9999: Read-only file system
+[11248.974734] init: createProcessGroup(9999, 96) failed for service 'traced': Read-only file system
+[11248.976748] init: processing action (persist.traced_perf.enable= && sys.init.perf_lsm_hooks=) from (/system/etc/init/traced_perf.rc:39)
+[11248.977221] init: processing action (nonencrypted) from (/system/etc/init/hw/init.rc:946)
+[11248.977437] init: starting service 'adb_root'...
+[11248.980177] libprocessgroup: Failed to make and chown /acct/uid_0: Read-only file system
+[11248.980261] init: createProcessGroup(0, 97) failed for service 'adb_root': Read-only file system
+[11248.981565] init: starting service 'cameraserver'...
+[11248.984003] libprocessgroup: Failed to make and chown /acct/uid_1047: Read-only file system
+[11248.984075] init: createProcessGroup(1047, 98) failed for service 'cameraserver': Read-only file system
+[11248.985128] init: starting service 'drm'...
+[11248.985343] libprocessgroup: Failed to open /dev/cpuset/camera-daemon/tasks: No such file or directory: No such file or directory
+[11248.985366] libprocessgroup: Failed to apply CameraServiceCapacity task profile: No such file or directory
+[11248.985411] libprocessgroup: Failed to open /dev/stune/top-app/tasks: No such file or directory: No such file or directory
+[11248.985422] libprocessgroup: Failed to apply MaxPerformance task profile: No such file or directory
+[11248.988022] libprocessgroup: Failed to make and chown /acct/uid_1019: Read-only file system
+[11248.988224] init: createProcessGroup(1019, 99) failed for service 'drm': Read-only file system
+[11248.989821] init: starting service 'idmap2d'...
+[11248.991344] libprocessgroup: Failed to make and chown /acct/uid_1000: Read-only file system
+[11248.991394] init: createProcessGroup(1000, 100) failed for service 'idmap2d': Read-only file system
+[11248.992719] init: starting service 'incidentd'...
+[11248.995237] libprocessgroup: Failed to make and chown /acct/uid_1067: Read-only file system
+[11248.995329] init: createProcessGroup(1067, 101) failed for service 'incidentd': Read-only file system
+[11248.996028] init: starting service 'installd'...
+[11248.997542] libprocessgroup: Failed to make and chown /acct/uid_0: Read-only file system
+[11248.997605] init: createProcessGroup(0, 102) failed for service 'installd': Read-only file system
+[11248.998576] init: starting service 'keystore'...
+[11249.002346] libprocessgroup: Failed to make and chown /acct/uid_1017: Read-only file system
+[11249.002429] init: createProcessGroup(1017, 103) failed for service 'keystore': Read-only file system
+[11249.003631] init: starting service 'mediaextractor'...
+[11249.006327] libprocessgroup: Failed to make and chown /acct/uid_1040: Read-only file system
+[11249.006410] init: createProcessGroup(1040, 104) failed for service 'mediaextractor': Read-only file system
+[11249.007647] init: starting service 'mediametrics'...
+[11249.009405] libprocessgroup: Failed to make and chown /acct/uid_1013: Read-only file system
+[11249.009457] init: createProcessGroup(1013, 105) failed for service 'mediametrics': Read-only file system
+[11249.011799] init: starting service 'media'...
+[11249.013267] libprocessgroup: Failed to open /dev/stune/foreground/tasks: No such file or directory: No such file or directory
+[11249.013318] libprocessgroup: Failed to apply HighPerformance task profile: No such file or directory
+[11249.013411] libprocessgroup: Failed to make and chown /acct/uid_1013: Read-only file system
+[11249.013461] init: createProcessGroup(1013, 106) failed for service 'media': Read-only file system
+[11249.014644] init: starting service 'storaged'...
+[11249.015938] libprocessgroup: Failed to open /dev/stune/foreground/tasks: No such file or directory: No such file or directory
+[11249.015967] libprocessgroup: Failed to apply HighPerformance task profile: No such file or directory
+[11249.016529] init: Opened file '/d/mmc0/mmc0:0001/ext_csd', flags 0
+[11249.018200] libprocessgroup: Failed to make and chown /acct/uid_0: Read-only file system
+[11249.018253] init: createProcessGroup(0, 107) failed for service 'storaged': Read-only file system
+[11249.018917] init: starting service 'wificond'...
+[11249.020738] libprocessgroup: Failed to make and chown /acct/uid_1010: Read-only file system
+[11249.020793] init: createProcessGroup(1010, 108) failed for service 'wificond': Read-only file system
+[11249.021754] init: starting service 'vendor.media.omx'...
+[11249.024245] libprocessgroup: Failed to make and chown /acct/uid_1046: Read-only file system
+[11249.024313] init: createProcessGroup(1046, 109) failed for service 'vendor.media.omx': Read-only file system
+[11249.062060] init: starting service 'media.swcodec'...
+[11249.064217] libprocessgroup: Failed to make and chown /acct/uid_1046: Read-only file system
+[11249.064322] init: createProcessGroup(1046, 111) failed for service 'media.swcodec': Read-only file system
+[11249.070955] init: Command 'class_start main' action=nonencrypted (/system/etc/init/hw/init.rc:947) took 93ms and succeeded
+[11249.071357] init: starting service 'gatekeeperd'...
+[11249.072824] libprocessgroup: Failed to make and chown /acct/uid_1000: Read-only file system
+[11249.072877] init: createProcessGroup(1000, 112) failed for service 'gatekeeperd': Read-only file system
+[11249.073905] init: starting service 'usbd'...
+[11249.075507] libprocessgroup: Failed to make and chown /acct/uid_0: Read-only file system
+[11249.075565] init: createProcessGroup(0, 113) failed for service 'usbd': Read-only file system
+[11249.076563] init: Service 'exec 12 (/system/bin/bootstat --set_system_boot_reason)' (pid 92) exited with status 0 oneshot service took 0.107000 seconds in background
+[11249.076615] init: Sending signal 9 to service 'exec 12 (/system/bin/bootstat --set_system_boot_reason)' (pid 92) process group...
+[11249.076712] libprocessgroup: Successfully killed process cgroup uid 1000 pid 92 in 0ms
+[11249.078013] init: processing action (init.svc.media=*) from (/system/etc/init/mediaserver.rc:1)
+[11249.228017] init: Service 'usbd' (pid 113) exited with status 0 oneshot service took 0.152000 seconds in background
+[11249.228047] init: Sending signal 9 to service 'usbd' (pid 113) process group...
+[11249.228128] libprocessgroup: Successfully killed process cgroup uid 0 pid 113 in 0ms
+[11249.285432] Initializing XFRM netlink socket
+[11249.458134] init: starting service 'mdnsd'...
+[11249.458344] init: Created socket '/dev/socket/mdnsd', mode 660, user 1020, group 3003
+[11249.460499] libprocessgroup: Failed to make and chown /acct/uid_1020: Read-only file system
+[11249.460595] init: createProcessGroup(1020, 153) failed for service 'mdnsd': Read-only file system
+[11249.461437] init: Control message: Processed ctl.start for 'mdnsd' from pid: 91 (/apex/com.android.adbd/bin/adbd --root_seclabel=u:r:su:s0)
+[11250.382830] Purging 7462912 bytes
+[11251.097065] init: starting service 'bootanim'...
+[11251.099451] libprocessgroup: Failed to make and chown /acct/uid_1003: Read-only file system
+[11251.099535] init: createProcessGroup(1003, 210) failed for service 'bootanim': Read-only file system
+[11251.100865] init: Control message: Processed ctl.start for 'bootanim' from pid: 78 (/system/bin/surfaceflinger)
+[11251.102575] libprocessgroup: Failed to open /dev/stune/top-app/tasks: No such file or directory: No such file or directory
+[11251.102621] libprocessgroup: Failed to apply MaxPerformance task profile: No such file or directory
+[11258.756742] init: Control message: Processed ctl.start for 'idmap2d' from pid: 229 (system_server)
+[11259.586876] init: processing action (sys.sysctl.extra_free_kbytes=*) from (/system/etc/init/hw/init.rc:995)
+[11263.395622] binder_debug: 6 callbacks suppressed
+[11263.395635] binder: undelivered TRANSACTION_COMPLETE
+[11263.395645] binder: undelivered transaction 16737, process died.
+[11267.046101] Purging 524288 bytes
+[11267.305536] Purging 7966720 bytes
+[11267.479983] Purging 15089664 bytes
+[11268.117277] Purging 8409088 bytes
+[11268.286019] init: processing action (sys.sysctl.tcp_def_init_rwnd=*) from (/system/etc/init/hw/init.rc:999)
+[11268.345171] Purging 15093760 bytes
+[11270.524018] Purging 1048576 bytes
+[11273.257721] init: Service 'bootanim' (pid 210) exited with status 0 oneshot service took 22.150999 seconds in background
+[11273.259969] init: Sending signal 9 to service 'bootanim' (pid 210) process group...
+[11273.261790] libprocessgroup: Successfully killed process cgroup uid 1003 pid 210 in 1ms
+[11273.610693] init: processing action (sys.boot_completed=1) from (/system/etc/init/hw/init.rc:986)
+[11273.632121] init: starting service 'exec 13 (/bin/rm -rf /data/per_boot)'...
+[11273.642367] libprocessgroup: Failed to make and chown /acct/uid_1000: Read-only file system
+[11273.642469] init: createProcessGroup(1000, 825) failed for service 'exec 13 (/bin/rm -rf /data/per_boot)': Read-only file system
+[11273.642580] init: SVC_EXEC service 'exec 13 (/bin/rm -rf /data/per_boot)' pid 825 (uid 1000 gid 1000+0 context default) started; waiting...
+[11273.737680] init: Service 'exec 13 (/bin/rm -rf /data/per_boot)' (pid 825) exited with status 0 waiting took 0.095000 seconds
+[11273.737805] init: Sending signal 9 to service 'exec 13 (/bin/rm -rf /data/per_boot)' (pid 825) process group...
+[11273.738009] libprocessgroup: Successfully killed process cgroup uid 1000 pid 825 in 0ms
+[11273.765012] init: processing action (sys.boot_completed=1 && sys.bootstat.first_boot_completed=0) from (/system/etc/init/bootstat.rc:77)
+[11273.765566] init: starting service 'exec 14 (/system/bin/bootstat --record_boot_complete --record_boot_reason --record_time_since_factory_reset -l)'...
+[11273.768122] libprocessgroup: Failed to make and chown /acct/uid_1000: Read-only file system
+[11273.768250] init: createProcessGroup(1000, 855) failed for service 'exec 14 (/system/bin/bootstat --record_boot_complete --record_boot_reason --record_time_since_factory_reset -l)': Read-only file system
+[11273.769273] init: processing action (sys.boot_completed=1) from (/system/etc/init/flags_health_check.rc:7)
+[11273.776934] init: processing action (sys.boot_completed=1) from (/system/etc/init/init.waydroid.rc:6)
+[11273.777037] init: processing action (sys.boot_completed=1) from (/system/etc/init/logd.rc:33)
+[11273.777370] init: starting service 'logd-auditctl'...
+[11273.779416] libprocessgroup: Failed to make and chown /acct/uid_1036: Read-only file system
+[11273.779486] init: createProcessGroup(1036, 856) failed for service 'logd-auditctl': Read-only file system
+[11273.780770] init: processing action (sys.boot_completed=1 && sys.wifitracing.started=0) from (/system/etc/init/wifi.rc:28)
+[11273.792229] init: processing action (sys.user.0.ce_available=true) from (/system/etc/init/wifi.rc:21)
+[11273.795849] init: Service 'logd-auditctl' (pid 856) exited with status 0 oneshot service took 0.016000 seconds in background
+[11273.795891] init: Sending signal 9 to service 'logd-auditctl' (pid 856) process group...
+[11273.795994] libprocessgroup: Successfully killed process cgroup uid 1036 pid 856 in 0ms
+[11273.801606] init: Service 'exec 14 (/system/bin/bootstat --record_boot_complete --record_boot_reason --record_time_since_factory_reset -l)' (pid 855) exited with status 0 oneshot service took 0.033000 seconds in background
+[11273.801642] init: Sending signal 9 to service 'exec 14 (/system/bin/bootstat --record_boot_complete --record_boot_reason --record_time_since_factory_reset -l)' (pid 855) process group...
+[11273.801733] libprocessgroup: Successfully killed process cgroup uid 1000 pid 855 in 0ms
+[11274.495551] binder: 4489 RLIMIT_NICE not set
+[11274.495571] binder: 4489 RLIMIT_NICE not set
+[11274.593699] binder: 4489 RLIMIT_NICE not set
+[11274.593873] binder: 4489 RLIMIT_NICE not set
+[11274.982046] Purging 7467008 bytes
+[11277.718290] init: Sending signal 9 to service 'idmap2d' (pid 100) process group...
+[11277.718393] libprocessgroup: Successfully killed process cgroup uid 1000 pid 100 in 0ms
+[11277.718866] init: Control message: Processed ctl.stop for 'idmap2d' from pid: 229 (system_server)
+[11280.658759] binder: 6100:5654 cannot find target node
+[11280.658790] binder: 5654:6100 transaction async to 0:0 failed 59600/29189/-22, size 644-0 line 2915
+[11287.520391] logd: logdr: UID=10144 GID=10144 PID=862 n tail=0 logMask=4 pid=0 start=0ns timeout=0ns
+[11287.618719] logd: logdr: UID=10144 GID=10144 PID=862 n tail=0 logMask=4 pid=0 start=1684856021979000000ns timeout=1684863227523799673ns
+[11289.375116] logd: logdr: UID=10144 GID=10144 PID=1075 n tail=0 logMask=4 pid=0 start=0ns timeout=0ns
+[11292.743053] binder_alloc: 5654: binder_alloc_buf size 1056768 failed, no address space
+[11292.743090] binder_alloc: allocated: 35832 (num: 17 largest: 34312), free: 1004552 (num: 7 largest: 969624)
+[11292.743097] binder: cannot allocate buffer: no space left
+[11292.743107] binder: 5869:7728 transaction call to 5654:0 failed 82073/29201/-28, size 1056768-0 line 3100
+[11292.994025] logd: logdr: UID=10144 GID=10144 PID=1075 n tail=0 logMask=4 pid=0 start=0ns timeout=0ns
+[11293.093871] binder: release 5654:5812 transaction 82999 in, still active
+[11293.093900] binder: send failed reply for transaction 82999 to 5869:5999
+[11293.093941] binder: release 5654:7720 transaction 83106 in, still active
+[11293.093945] binder: send failed reply for transaction 83106 to 7507:7724
+[11293.106485] binder_alloc: 5869: binder_alloc_buf, no vma
+[11293.106513] binder: cannot allocate buffer: vma cleared, target dead or dying
+[11293.106522] binder: 4798:5349 transaction async to 5869:0 failed 83296/29189/-3, size 108-8 line 3100
+[11293.112013] binder: undelivered TRANSACTION_COMPLETE
+[11293.112046] binder: undelivered TRANSACTION_ERROR: 29189
+[11295.321359] logd: logdr: UID=10144 GID=10144 PID=2402 n tail=0 logMask=4 pid=0 start=0ns timeout=0ns
+[11295.362737] logd: logdr: UID=10144 GID=10144 PID=2402 n tail=0 logMask=4 pid=0 start=1684856021979000000ns timeout=1684863235268006565ns
+[11296.687533] Purging 532480 bytes
+[11297.593781] logd: logdr: UID=10144 GID=10144 PID=2472 n tail=0 logMask=4 pid=0 start=0ns timeout=0ns
+[11298.246929] binder_debug: 5 callbacks suppressed
+[11298.246940] binder: 8025:7915 cannot find target node
+[11298.246950] binder: 7915:8025 transaction async to 0:0 failed 91338/29189/-22, size 160-0 line 2915
+[11298.887792] binder: 8035:7915 cannot find target node
+[11298.887826] binder: 7915:8035 transaction async to 0:0 failed 91941/29189/-22, size 160-0 line 2915
+[11299.825988] binder: 8035:7915 cannot find target node
+[11299.826010] binder: 7915:8035 transaction async to 0:0 failed 92657/29189/-22, size 160-0 line 2915
+[11307.492628] binder_alloc: 7827: binder_alloc_buf size 1056768 failed, no address space
+[11307.492647] binder_alloc: allocated: 19176 (num: 18 largest: 7984), free: 1021208 (num: 7 largest: 1014304)
+[11307.492652] binder: cannot allocate buffer: no space left
+[11307.492658] binder: 7915:8450 transaction call to 7827:0 failed 115913/29201/-28, size 1056768-0 line 3100
+[11307.876739] logd: logdr: UID=10144 GID=10144 PID=2472 n tail=0 logMask=4 pid=0 start=0ns timeout=0ns
+[11310.636579] logd: logdr: UID=10144 GID=10144 PID=2402 n tail=0 logMask=4 pid=0 start=0ns timeout=0ns
