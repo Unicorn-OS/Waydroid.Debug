@@ -1,0 +1,60 @@
+(004489) [09:53:06] % chmod 666 -R /dev/vndbinder
+(004489) [09:53:06] % chmod 666 -R /dev/hwbinder
+(004489) [10:14:49] Hardware service is not even started
+(004489) [10:14:49] % lxc-info -P /var/lib/waydroid/lxc -n waydroid -sH
+STOPPED
+(004489) [10:14:49] % /usr/lib/waydroid/data/scripts/waydroid-net.sh stop
+vnic is waydroid0
+waydroid-net isn't running
+(004489) [10:14:49] % systemctl is-enabled -q nfcd
+Failed to get unit file state for nfcd.service: No such file or directory
+(000860) [10:15:08] % lxc-info -P /var/lib/waydroid/lxc -n waydroid -sH
+STOPPED
+(000860) [10:15:08] % mkdir -p /dev/binderfs
+(000860) [10:15:08] % mount -t binder binder /dev/binderfs
+(000860) [10:15:08] % ln -s /dev/binderfs/anbox-hwbinder /dev/binderfs/anbox-vndbinder /dev/binderfs/anbox-binder /dev/binderfs/features /dev/binderfs/vndbinder /dev/binderfs/hwbinder /dev/binderfs/binder /dev/binderfs/binder-control /dev/
+(000860) [10:15:08] % modprobe -q ashmem_linux
+(000860) [10:15:08] % chmod 666 -R /dev/binder
+(000860) [10:15:08] % chmod 666 -R /dev/vndbinder
+(000860) [10:15:08] % chmod 666 -R /dev/hwbinder
+(003313) [10:20:04] ERROR: Action "container" needs root access
+(003313) [10:20:04] See also: <https://github.com/waydroid>
+(003313) [10:20:04] Traceback (most recent call last):
+  File "/usr/lib/waydroid/tools/__init__.py", line 77, in main
+    actionNeedRoot(args.action)
+  File "/usr/lib/waydroid/tools/__init__.py", line 21, in actionNeedRoot
+    raise RuntimeError(
+RuntimeError: Action "container" needs root access
+
+(003324) [10:20:54] % tail -n 60 -F /var/lib/waydroid/waydroid.log
+(003324) [10:20:54] *** output passed to waydroid stdout, not to this log ***
+(000860) [10:22:51] % /usr/lib/waydroid/data/scripts/waydroid-net.sh start
+vnic is waydroid0
+(000860) [10:22:51] % systemctl is-active -q nfcd
+(000860) [10:22:51] % chmod 777 -R /dev/dri
+(000860) [10:22:51] % chmod 777 -R /dev/fb0
+(000860) [10:22:51] % chmod 777 -R /dev/video1
+(000860) [10:22:51] % chmod 777 -R /dev/video2
+(000860) [10:22:51] % chmod 777 -R /dev/video0
+(000860) [10:22:51] % mv /var/lib/waydroid/config_session /var/lib/waydroid/lxc/waydroid
+(000860) [10:22:51] % mount -o ro /var/lib/waydroid/images/system.img /var/lib/waydroid/rootfs
+(000860) [10:22:51] % mkdir -p /var/lib/waydroid/overlay_work/system
+(000860) [10:22:51] % mount -t overlay -o ro,lowerdir=/var/lib/waydroid/overlay:/var/lib/waydroid/rootfs,upperdir=/var/lib/waydroid/overlay_rw/system,workdir=/var/lib/waydroid/overlay_work/system,xino=off overlay /var/lib/waydroid/rootfs
+(000860) [10:22:51] % mount -o ro /var/lib/waydroid/images/vendor.img /var/lib/waydroid/rootfs/vendor
+(000860) [10:22:51] % mkdir -p /var/lib/waydroid/overlay_work/vendor
+(000860) [10:22:51] % mount -t overlay -o ro,lowerdir=/var/lib/waydroid/overlay/vendor:/var/lib/waydroid/rootfs/vendor,upperdir=/var/lib/waydroid/overlay_rw/vendor,workdir=/var/lib/waydroid/overlay_work/vendor,xino=off overlay /var/lib/waydroid/rootfs/vendor
+(000860) [10:22:51] % mount -o bind /var/lib/waydroid/waydroid.prop /var/lib/waydroid/rootfs/vendor/waydroid.prop
+(000860) [10:22:51] Save config: /var/lib/waydroid/waydroid.cfg
+(000860) [10:22:51] % lxc-start -P /var/lib/waydroid/lxc -F -n waydroid -- /init
+(000860) [10:22:51] New background process: pid=5430, output=background
+(000860) [10:22:51] % lxc-info -P /var/lib/waydroid/lxc -n waydroid -sH
+RUNNING
+(005508) [10:23:43] Introspect error on :1.14:/ContainerManager: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+(005508) [10:23:43] Executing introspect queue due to error
+(005508) [10:24:08] Failed to unfreeze container. Trying to launch anyways...
+(000860) [10:39:17] % lxc-info -P /var/lib/waydroid/lxc -n waydroid -sH
+STOPPED
+lxc-start: waydroid: conf.c: run_buffer: 321 Script exited with status 126
+lxc-start: waydroid: start.c: lxc_end: 988 Failed to run lxc.hook.post-stop for container "waydroid"
+(006595) [10:54:47] % tail -n 60 -F /var/lib/waydroid/waydroid.log
+(006595) [10:54:47] *** output passed to waydroid stdout, not to this log ***
